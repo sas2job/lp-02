@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+html, body {font-family: 'Fira Sans', sans-serif; font-size: 18px;}
+
+img {max-width: 100%;}
+
+.c {text-align: center !important;}
+.container, .container-fluid {margin-top: 30px;}
+
+#top-menu {box-shadow: 1px 1px 3px grey;margin-top: 0;}
+
+#top-menu .navbar-brand {font-weight: bold;}
+#top-menu .navbar-brand:hover {color: #C50024;}
+
+#top-menu .tel {font-weight: bold; margin-right: 38px;}
+#top-menu .tel:hover {color: #C50024;}
+
+#top-menu .navbar-nav .active {border-bottom: 2px solid #C50024; color: #C50024;}
+#top-menu .navbar-nav .active a {color: #C50024;}
+
+#block1 {}
+#block1 .main-text {text-align: center;}
+
+#counts {}
+#counts .count {font-size: 4em;}
+
+.bricks {background: url(../images/bg-bricks.jpg) top center; padding: 20px 0;}
+
+#block2 {}
+#block2 h2 {text-transform: uppercase;}
+#block2 h2::after {content:'';  display: block;  width: 150px;  height: 2px;  background: #C50024;  margin: 20px auto;}
+#block2 .bricks .tarif {  }
+#block2 .bricks .tarif > div { background: rgba(255, 255, 255, 0.8); margin: 0 10px; padding: 10px;border-radius: 5px;}
+#block2 .bricks .tarif > div .header {font-size: 4em;color: #C50024;}
+#block2 .bricks .tarif > div .price {font-size: 4em;color: #C50024;}
+
+#block4 h2 {text-transform: uppercase;}
+#block4 h2::after {content:'';  display: block;  width: 150px;  height: 2px;  background: #C50024;  margin: 20px auto;}
+#block4 .grey {background: grey; padding: 20px 0; background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);}
+#block4 .grey .tarif {  }
+#block4 .grey .tarif > div { background: rgba(255, 255, 255, 0.6); margin: 0 10px; padding: 10px;border-radius: 5px;}
+#block4 .grey .tarif > div .header {font-size: 4em;color: #C50024;}
+#block4 .grey .tarif > div .price {font-size: 3.5em;color: #C50024;}
+
+
+#block5 {}
+#block5 h2 {text-transform: uppercase;}
+#block5 h2::after {content:'';  display: block;  width: 150px;  height: 2px;  background: #C50024;  margin: 20px auto;}
+#block5 .bricks .tarif {  }
+#block5 .bricks .tarif > div { background: rgba(255, 255, 255, 0.8); margin: 0 10px; padding: 10px;border-radius: 5px;}
+#block5 .bricks .tarif > div .header {font-size: 2.5em;color: #C50024;}
+
+.beach {background: url(../images/bg-beach.jpg) top center; padding: 20px 0; min-height: 1080px;}
+#block6 {}
+#block6 h2 {text-transform: uppercase;}
+#block6 h2::after {content:'';  display: block;  width: 150px;  height: 2px;  background: #C50024;  margin: 20px auto;}
+#block6 .beach .tarif {text-align: left;}
+#block6 .beach .tarif > div { background: rgba(255, 255, 255, 0.8); margin: 0 10px; padding: 10px;border-radius: 5px;}
+#block6 .beach .tarif ul {padding-left: 20px;}
+#block6 .beach .tarif li{
+  list-style: none;
+}
+#block6 .beach .tarif li:before{
+  content: '';
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-image: url(../images/li-beach-mini.png);
+  background-repeat: no-repeat;
+  padding-right: 40px;
+}
+
+#block8 {margin: 30px auto;border-top: 2px solid #C50024;padding-top: 30px;}
+
+#back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+}
